@@ -1,3 +1,7 @@
+:root, [data-bs-theme=light] {
+        --bs-primary: #B88E2F;
+}
+
 .card.card-product {
     overflow: hidden;
     .card-hover-state {
@@ -27,4 +31,28 @@
             transform: translate(0, 0);
         }
     }
+}
+
+
+.link-color {
+    width: 1.875rem;
+    height: 1.875rem;
+    display: inline-block;
+}
+
+.bg-purple {
+    background-color: #816DFA;
+}
+
+
+.bg-purple {
+    background-color: #816DFA;
+}
+
+.bg-brown {
+    background-color: var(--bs-primary);
+}
+
+.progress, .progress-stacked {
+    --bs-progress-bar-bg: var(--bs-primary);
 }
